@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scheibenversiegelung Pforzheim | GYEON Versiegelung ab 150€</title>
+<meta name="description" content="Professionelle Scheibenversiegelung in Pforzheim und Umgebung (Stuttgart, Karlsruhe). Termin bei uns vor Ort, Festpreis 150€, GYEON Premium-Produkte, bis zu 24 Monate Schutz.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "name": "Scheibenversiegelung Pforzheim",
+  "description": "Professionelle Scheibenversiegelung mit GYEON Premium-Produkten. Termin bei uns vor Ort.",
+  "areaServed": ["Pforzheim", "Stuttgart", "Karlsruhe"],
+  "priceRange": "150€",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Pforzheim",
+    "addressRegion": "Baden-Württemberg",
+    "addressCountry": "DE"
+  }
+}
+</script>
+<style>
+  :root {
+    --bg: #F4F5F6;
+    --black: #0B0E11;
+    --black2: #15191E;
+    --cyan: #00C2D1;
+    --cyan-dark: #009AA8;
+    --white: #FFFFFF;
+    --muted: #8C949C;
+    --border: #E1E4E7;
+    --text: #0B0E11;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Outfit', sans-serif; background: var(--white); color: var(--text); }
+  a { text-decoration: none; }
+  ul { list-style: none; }
+
+  .mono { font-family: 'Space Mono', monospace; }
+
+  /* HERO */
+  header.hero {
+    background: var(--black);
+    background-image:
+      linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+    background-size: 24px 24px;
+    padding: clamp(40px, 7vw, 64px) clamp(20px, 4vw, 48px);
+  }
+  .hero-inner { max-width: 720px; margin: 0 auto; text-align: center; }
+  .eyebrow {
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: var(--cyan);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  h1.hero-title {
+    font-size: clamp(32px, 5.5vw, 50px);
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 20px;
+    line-height: 1.1;
+  }
+  h1.hero-title span { color: var(--cyan); }
+  .hero-text {
+    font-size: clamp(15px, 2vw, 17px);
+    color: #C7CBCF;
+    margin: 0 auto 32px;
+    line-height: 1.6;
+    max-width: 580px;
+  }
+  .hero-cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 52px;
+    padding: 16px 36px;
+    background: var(--cyan);
+    color: var(--black);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Space Mono', monospace;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .btn-primary:focus-visible, a:focus-visible, button:focus-visible {
+    outline: 3px solid var(--cyan);
+    outline-offset: 3px;
+  }
+  .hero-sub-note {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: rgba(255,255,255,.6);
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  /* GALLERY PLACEHOLDER */
+  .gallery-wrap { max-width: 480px; margin: 28px auto; padding: 20px 0; }
+  .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .gallery-slot {
+    aspect-ratio: 3 / 4;
+    border-radius: 10px;
+    border: 1.5px dashed rgba(0,194,209,0.5);
+    background: rgba(255,255,255,0.03);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    gap: 6px;
+  }
+  .gallery-slot svg { width: 26px; height: 26px; }
+  .gallery-slot .label { font-size: 11px; font-weight: 700; color: #fff; }
+  .gallery-slot .hint { font-size: 10px; color: rgba(255,255,255,.5); line-height: 1.4; }
+  .gallery-note {
+    margin-top: 12px;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    color: rgba(255,255,255,.4);
+    text-transform: uppercase;
+  }
+  /* To replace with real media: delete .gallery-grid content and insert
+     <img src="images/your-photo.jpg" alt="..."> or <video> tags instead */
+
+  /* SECTIONS */
+  section { padding: clamp(48px, 8vw, 72px) clamp(20px, 4vw, 40px); }
+  .section-bg { background: var(--bg); }
+  .section-inner { max-width: 820px; margin: 0 auto; }
+  .section-inner-narrow { max-width: 640px; margin: 0 auto; }
+  .section-eyebrow {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: var(--muted);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 14px;
+    text-align: center;
+  }
+  .section-title {
+    font-size: clamp(26px, 4vw, 34px);
+    font-weight: 800;
+    color: var(--text);
+    margin: 0 auto 36px;
+    line-height: 1.2;
+    text-align: center;
+    max-width: 620px;
+  }
+  .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 14px;
+  }
+  .card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 22px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--text);
+  }
+  .card-bg { background: var(--bg); }
+  .benefit-card {
+    border-left: 4px solid var(--cyan);
+  }
+  .benefit-card.alt { border-left-color: var(--black); }
+  .benefit-card h3, .process-card h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 6px;
+  }
+  .benefit-card p, .process-card p {
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .process-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    font-family: 'Space Mono', monospace;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  .process-num.cyan { background: var(--cyan); color: var(--black); }
+  .process-num.black { background: var(--black); color: var(--cyan); }
+
+  /* SERVICE AREA */
+  .area-section {
+    background: var(--white);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    text-align: center;
+  }
+  .area-section h2 {
+    font-size: clamp(20px, 3vw, 26px);
+    font-weight: 800;
+    margin-bottom: 14px;
+  }
+  .area-section p { font-size: 15px; color: var(--muted); line-height: 1.7; max-width: 700px; margin: 0 auto; }
+
+  /* PRICING */
+  .pricing-card {
+    max-width: 460px;
+    margin: 0 auto;
+    background: var(--black);
+    border: 2px solid var(--cyan);
+    border-radius: 16px;
+    padding: clamp(24px, 4vw, 36px);
+    text-align: center;
+  }
+  .price-amount { font-size: clamp(44px, 8vw, 56px); font-weight: 800; color: var(--white); line-height: 1; margin-bottom: 8px; }
+  .price-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: var(--cyan);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 24px;
+  }
+  .price-features { text-align: left; margin-bottom: 24px; }
+  .price-features li {
+    font-size: 15px;
+    color: #E5E7E9;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    padding-left: 22px;
+    position: relative;
+  }
+  .price-features li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--cyan);
+    font-weight: 700;
+  }
+  .btn-price {
+    width: 100%;
+    min-height: 52px;
+    padding: 16px 24px;
+    background: var(--cyan);
+    color: var(--black);
+    border: none;
+    border-radius: 10px;
+    font-family: 'Space Mono', monospace;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .price-note { font-size: 13px; color: #9AA1A8; margin-top: 14px; }
+
+  /* FAQ */
+  .faq-item {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  .faq-question {
+    width: 100%;
+    padding: 18px 20px;
+    background: transparent;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text);
+    min-height: 44px;
+  }
+  .faq-icon { font-size: 20px; color: var(--cyan-dark); flex-shrink: 0; }
+  .faq-answer {
+    display: none;
+    padding: 0 20px 18px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--muted);
+  }
+  .faq-item.open .faq-answer { display: block; }
+  .faq-cta { text-align: center; margin-top: 36px; padding: 24px; border-top: 1px solid var(--border); }
+  .faq-cta p { font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 16px; }
+
+  @media (max-width: 600px) {
+    .gallery-grid { gap: 6px; }
+  }
+</style>
+</head>
+<body>
+
+<main>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">Professionelle Glasversiegelung mit GYEON · Pforzheim &amp; Region</div>
+      <h1 class="hero-title">Klare Sicht bei jedem Wetter, <span>garantiert</span></h1>
+
+      <!-- GALLERY PLACEHOLDER: replace slots with real <img>/<video> when ready -->
+      <div class="gallery-wrap">
+        <div class="gallery-grid">
+          <div class="gallery-slot">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" stroke="#00C2D1" stroke-width="1.6"/><circle cx="8.5" cy="10" r="1.6" stroke="#00C2D1" stroke-width="1.4"/><path d="M3 16l5-4 4 3 3-2.5 6 5" stroke="#00C2D1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div class="label">Foto: Wassertest</div>
+            <div class="hint">z. B. Tropfen perlen auf der Scheibe ab</div>
+          </div>
+          <div class="gallery-slot">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" stroke="#00C2D1" stroke-width="1.6"/><circle cx="8.5" cy="10" r="1.6" stroke="#00C2D1" stroke-width="1.4"/><path d="M3 16l5-4 4 3 3-2.5 6 5" stroke="#00C2D1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div class="label">Foto: Vorher / Nachher</div>
+            <div class="hint">Scheibe vor und nach der Versiegelung</div>
+          </div>
+          <div class="gallery-slot">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" stroke="#00C2D1" stroke-width="1.6"/><circle cx="8.5" cy="10" r="1.6" stroke="#00C2D1" stroke-width="1.4"/><path d="M3 16l5-4 4 3 3-2.5 6 5" stroke="#00C2D1" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div class="label">Video: Auftragung</div>
+            <div class="hint">kurzer Clip vom Arbeitsschritt</div>
+          </div>
+        </div>
+        <div class="gallery-note">Platzhalter – eigene Fotos/Videos folgen</div>
+      </div>
+
+      <p class="hero-text">
+        Professionelle Scheibenversiegelung mit Premium-Produkten von GYEON in Pforzheim. Wasser perlt ab, du behältst auch bei Starkregen kristallklare Sicht und fährst sicherer, weil deine Reaktionszeit nicht durch eine verschmutzte oder verschwommene Scheibe eingeschränkt wird. Termin bei uns vor Ort, fertig in unter 60 Minuten.
+      </p>
+
+      <div class="hero-cta-row">
+        <a href="#pricing" class="btn-primary">Termin sichern – 150€</a>
+        <div class="hero-sub-note">Festpreis, keine versteckten Kosten</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- PAIN POINTS -->
+  <section class="section-bg">
+    <div class="section-inner">
+      <div class="section-eyebrow">Kommt dir das bekannt vor?</div>
+      <h2 class="section-title">Regen, Schlieren, schlechte Sicht</h2>
+      <div class="grid-3">
+        <div class="card">Bei Regen siehst du abends kaum noch die Fahrbahnmarkierung, der Wischer schmiert nur noch. Unklare Sicht bei Starkregen ist kein Komfortproblem, sondern ein echtes Sicherheitsrisiko, im schlimmsten Fall mit Unfallfolge.</div>
+        <div class="card">Im Winter kratzt du jeden Morgen mühsam Eis von der Frontscheibe, bevor du überhaupt losfahren kannst.</div>
+        <div class="card">Insekten und Straßendreck kleben fest und lassen sich nur mit Kraftaufwand wieder entfernen.</div>
+        <div class="card">Sprühversiegelungen aus dem Baumarkt halten ein paar Wochen, dann ist der Effekt wieder weg.</div>
+        <div class="card">Gegenlicht bei Nachtfahrten blendet stärker, weil Mikrokratzer und Ablagerungen das Licht streuen.</div>
+        <div class="card">Du weißt, dass professionelle Versiegelung etwas bringt, aber bisher hat sich der Termin nie ergeben.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section>
+    <div class="section-inner">
+      <div class="section-eyebrow" style="color: var(--cyan-dark);">Nach der Behandlung</div>
+      <h2 class="section-title">Das verändert sich für dich</h2>
+      <div class="grid-3">
+        <div class="card card-bg benefit-card">
+          <h3>Klare Sicht bei Regen</h3>
+          <p>Wasser perlt sofort ab, der Scheibenwischer muss kaum noch ran. Gerade bei Nachtfahrten im Regen ein spürbarer Unterschied.</p>
+        </div>
+        <div class="card card-bg benefit-card alt">
+          <h3>Weniger Eiskratzen im Winter</h3>
+          <p>Die versiegelte Scheibe vereist deutlich langsamer und lässt sich leichter freikratzen.</p>
+        </div>
+        <div class="card card-bg benefit-card">
+          <h3>Schmutz &amp; Insekten lösen sich leichter</h3>
+          <p>Die glatte Oberfläche verhindert, dass sich Insektenreste und Straßenschmutz festsetzen.</p>
+        </div>
+        <div class="card card-bg benefit-card alt">
+          <h3>Bis zu 24 Monate Schutz</h3>
+          <p>Eine professionelle GYEON Versiegelung hält bei normaler Beanspruchung deutlich länger als Hausmittel oder Sprühversiegelungen.</p>
+        </div>
+        <div class="card card-bg benefit-card">
+          <h3>Bessere Sicht bei Gegenlicht</h3>
+          <p>Weniger Lichtbrechung und Schlieren auf der Scheibe, besonders relevant bei tiefstehender Sonne oder Gegenverkehr nachts.</p>
+        </div>
+        <div class="card card-bg benefit-card alt">
+          <h3>Mehr Sicherheit bei Starkregen</h3>
+          <p>Kristallklare Sicht statt verschwommener Scheibe, genau dann wenn es im Straßenverkehr am meisten zählt.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section-bg">
+    <div class="section-inner">
+      <div class="section-eyebrow">So läuft dein Termin ab</div>
+      <h2 class="section-title">Drei Schritte zu klarer Sicht</h2>
+      <div class="grid-3">
+        <div class="card process-card">
+          <div class="process-num cyan">01</div>
+          <h3>Tiefenreinigung &amp; Politur</h3>
+          <p>Glasreiniger entfernt Silikon- und Wachsrückstände, anschließend Politur gegen Wischerstreifen und mineralische Ablagerungen.</p>
+        </div>
+        <div class="card process-card">
+          <div class="process-num black">02</div>
+          <h3>GYEON Versiegelung auftragen</h3>
+          <p>Professionelle Auftragung der Glasversiegelung in mehreren dünnen Schichten für maximale Haftung und Lebensdauer.</p>
+        </div>
+        <div class="card process-card">
+          <div class="process-num cyan">03</div>
+          <h3>Aushärtung &amp; Abnahme</h3>
+          <p>Die Versiegelung härtet kontrolliert aus, danach zeigen wir dir den Wassertest live: Tropfen perlen sofort ab, Sicht bleibt auch bei Regen und Gegenlicht klar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE AREA -->
+  <section class="area-section">
+    <h2>Scheibenversiegelung in Pforzheim und Umgebung</h2>
+    <p>Unser Standort ist Pforzheim, von hier aus sind wir schnell erreichbar: nur etwa 20 Minuten von Stuttgart und rund 30 Minuten von Karlsruhe entfernt. Egal ob du in Pforzheim selbst, im Enzkreis, in Stuttgart oder in Karlsruhe wohnst, du bringst dein Auto einfach zu uns vor Ort. So bekommst du professionelle GYEON Scheibenversiegelung in unserer Werkstatt in Pforzheim, ganz ohne langen Anfahrtsweg für dich.</p>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing">
+    <div class="section-eyebrow">Festpreis</div>
+    <h2 class="section-title">Ein Preis, keine Überraschungen</h2>
+    <div class="pricing-card">
+      <div class="price-amount">150€</div>
+      <div class="price-label">Festpreis pro Frontscheibe</div>
+      <ul class="price-features">
+        <li>Tiefenreinigung &amp; Politur inklusive</li>
+        <li>Original GYEON Versiegelungsprodukte</li>
+        <li>Termin bei uns vor Ort, ca. 45–60 Min</li>
+        <li>Bis zu 24 Monate Schutz</li>
+        <li>Wassertest-Abnahme direkt vor Ort</li>
+      </ul>
+      <!-- meetergo Buchungswidget -->
+      <div class="meetergo-wrap" style="margin-top: 8px;">
+        <!-- meetergo widget start -->
+        <div style="min-width:330px" class="meetergo-iframe" data-src="https://cal.meetergo.com/infojc-detailing/scheibenversiegelung-frontscheibe-keramikversiegelung"></div>
+        <script defer src="https://cdn.meetergo.com/v4/integration.js"></script>
+        <!-- meetergo widget end -->
+      </div>
+      <div class="price-note">Zahlung vor Ort bequem per Karte (SumUp) oder bar möglich.</div>
+      <div class="price-note">Wir melden uns innerhalb von 24 Stunden zur Terminbestätigung.</div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section-bg">
+    <div class="section-inner-narrow">
+      <div class="section-eyebrow">Häufige Fragen</div>
+      <h2 class="section-title">Was Kunden vorher wissen wollen</h2>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <span>Wie lange hält die Versiegelung?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">Bei richtiger Pflege hält eine professionell aufgetragene GYEON Scheibenversiegelung bis zu 24 Monate. Wir empfehlen eine Sichtkontrolle nach etwa einem Jahr, um den Zustand zu prüfen.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <span>Wie lange dauert der Termin?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">Der gesamte Vorgang inklusive Reinigung, Politur, Auftragung und Aushärtung dauert etwa 45 bis 60 Minuten, abhängig vom Zustand der Scheibe.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <span>Funktioniert das bei jedem Auto?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">Ja, die Versiegelung funktioniert auf allen Frontscheiben unabhängig von Marke oder Modell. Auch Seiten- und Heckscheibe können auf Wunsch behandelt werden.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <span>Muss ich danach etwas beachten?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">In den ersten 24 Stunden sollte die Scheibe nicht gewaschen werden, damit die Versiegelung vollständig aushärten kann. Danach gilt: Waschanlagen sollten möglichst vermieden werden, da Bürsten und aggressive Reiniger die Standzeit und das Abperlverhalten der Versiegelung reduzieren. Für die Reinigung empfehlen wir eine schonende Handwäsche.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <span>Was kostet die Versiegelung?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">Die Scheibenversiegelung kostet pauschal 150€ inklusive Vorbereitung, Politur, Materialkosten und Endkontrolle. Keine versteckten Zusatzkosten.</div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <span>Wie buche ich einen Termin?</span>
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">Du sicherst dir deinen Termin ganz einfach über unser Terminbuchungsfenster. Wähle dort einen freien Slot, der dir passt, und der Termin ist direkt bestätigt.</div>
+      </div>
+
+      <div class="faq-cta">
+        <p>Bereit für klare Sicht bei jedem Wetter?</p>
+        <a href="#pricing" class="btn-primary">Termin sichern – 150€</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer style="background: var(--black); padding: 28px 20px; text-align: center;">
+  <div style="display:flex; gap:18px; justify-content:center; flex-wrap:wrap; margin-bottom:10px;">
+    <a href="impressum.html" style="color: rgba(255,255,255,.7); font-size:13px; font-family:'Outfit',sans-serif;">Impressum</a>
+    <a href="datenschutz.html" style="color: rgba(255,255,255,.7); font-size:13px; font-family:'Outfit',sans-serif;">Datenschutz</a>
+  </div>
+  <div style="color: rgba(255,255,255,.4); font-size:12px; font-family:'Outfit',sans-serif;">© Janetzke Car Detailing, Pforzheim</div>
+</footer>
+
+<script>
+  function toggleFaq(btn) {
+    var item = btn.parentElement;
+    var icon = btn.querySelector('.faq-icon');
+    var isOpen = item.classList.contains('open');
+    item.classList.toggle('open');
+    icon.textContent = isOpen ? '+' : '−';
+  }
+</script>
+
+</body>
+</html>
