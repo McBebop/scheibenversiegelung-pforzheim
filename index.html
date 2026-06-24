@@ -6,7 +6,7 @@
 <title>Scheibenversiegelung Pforzheim | GYEON Versiegelung ab 150€</title>
 <meta name="description" content="Professionelle Scheibenversiegelung in Pforzheim und Umgebung (Stuttgart, Karlsruhe). Termin bei uns vor Ort, Festpreis 150€, GYEON Premium-Produkte, bis zu 24 Monate Schutz.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Space+Mono:wght@400;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,6 +82,8 @@
     gap: 12px;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    width: 100%;
   }
   .btn-primary {
     display: inline-flex;
@@ -178,8 +180,8 @@
     border: 1px solid var(--border);
     border-radius: 12px;
     padding: 22px;
-    font-size: 15px;
-    line-height: 1.6;
+    font-size: 17px;
+    line-height: 1.7;
     color: var(--text);
   }
   .card-bg { background: var(--bg); }
@@ -194,9 +196,9 @@
     margin-bottom: 6px;
   }
   .benefit-card p, .process-card p {
-    font-size: 14px;
+    font-size: 16px;
     color: var(--muted);
-    line-height: 1.6;
+    line-height: 1.7;
   }
   .process-num {
     display: inline-flex;
@@ -309,8 +311,8 @@
   .faq-answer {
     display: none;
     padding: 0 20px 18px;
-    font-size: 15px;
-    line-height: 1.6;
+    font-size: 17px;
+    line-height: 1.7;
     color: var(--muted);
   }
   .faq-item.open .faq-answer { display: block; }
@@ -329,7 +331,7 @@
   <!-- HERO -->
   <header class="hero">
     <div class="hero-inner">
-      <div class="eyebrow">Professionelle Glasversiegelung mit GYEON · Pforzheim &amp; Region</div>
+      <div style="font-family:'DM Sans',sans-serif; font-size:12px; letter-spacing:4px; color:#00C2D1; text-transform:uppercase; font-weight:500; margin-bottom:20px;">Professionelle Glasversiegelung mit GYEON · Pforzheim &amp; Region</div>
       <h1 class="hero-title">Klare Sicht bei jedem Wetter, <span>garantiert</span></h1>
 
       <!-- Galerie & Video -->
@@ -361,12 +363,27 @@
       </div>
 
       <p class="hero-text">
-        Professionelle Scheibenversiegelung mit Premium-Produkten von GYEON in Pforzheim. Wasser perlt ab, du behältst auch bei Starkregen kristallklare Sicht und fährst sicherer, weil deine Reaktionszeit nicht durch eine verschmutzte oder verschwommene Scheibe eingeschränkt wird. Termin bei uns vor Ort, fertig in unter 60 Minuten.
+        Professionelle Scheibenversiegelung mit Premium-Produkten von GYEON in Pforzheim. Wasser perlt ab, auch bei Starkregen bleibt die Sicht kristallklar – weil eine saubere, versiegelte Scheibe die Reaktionszeit nicht einschränkt. Termin bei uns vor Ort, fertig in unter 60 Minuten.
       </p>
 
+      <!-- Highlights -->
+      <div style="display:flex; flex-wrap:wrap; gap:12px; justify-content:center; margin-bottom:32px;">
+        <div style="background:rgba(255,255,255,0.07); border:1px solid rgba(0,194,209,0.3); border-radius:10px; padding:14px 22px; text-align:center;">
+          <div style="font-family:'DM Sans',sans-serif; font-size:22px; font-weight:700; color:var(--cyan);">24 Monate</div>
+          <div style="font-family:'DM Sans',sans-serif; font-size:12px; color:rgba(255,255,255,.6); letter-spacing:1px; text-transform:uppercase; margin-top:4px;">Schutz bei richtiger Pflege</div>
+        </div>
+        <div style="background:rgba(255,255,255,0.07); border:1px solid rgba(0,194,209,0.3); border-radius:10px; padding:14px 22px; text-align:center;">
+          <div style="font-family:'DM Sans',sans-serif; font-size:22px; font-weight:700; color:var(--cyan);">150€</div>
+          <div style="font-family:'DM Sans',sans-serif; font-size:12px; color:rgba(255,255,255,.6); letter-spacing:1px; text-transform:uppercase; margin-top:4px;">Festpreis, alles inklusive</div>
+        </div>
+        <div style="background:rgba(255,255,255,0.07); border:1px solid rgba(0,194,209,0.3); border-radius:10px; padding:14px 22px; text-align:center;">
+          <div style="font-family:'DM Sans',sans-serif; font-size:22px; font-weight:700; color:var(--cyan);">45–60 Min</div>
+          <div style="font-family:'DM Sans',sans-serif; font-size:12px; color:rgba(255,255,255,.6); letter-spacing:1px; text-transform:uppercase; margin-top:4px;">Termin bei uns vor Ort</div>
+        </div>
+      </div>
+
       <div class="hero-cta-row">
-        <a href="#pricing" class="btn-primary">Termin sichern – 150€</a>
-        <div class="hero-sub-note">Festpreis, keine versteckten Kosten</div>
+        <a href="#pricing" class="btn-primary">Termin buchen</a>
       </div>
     </div>
   </header>
@@ -374,15 +391,15 @@
   <!-- PAIN POINTS -->
   <section class="section-bg">
     <div class="section-inner">
-      <div class="section-eyebrow">Kommt dir das bekannt vor?</div>
+      <div style="font-family:'DM Sans',sans-serif; font-size:12px; letter-spacing:4px; color:var(--muted); text-transform:uppercase; font-weight:500; margin-bottom:14px; text-align:center;">Das Problem unbehandelter Scheiben</div>
       <h2 class="section-title">Regen, Schlieren, schlechte Sicht</h2>
       <div class="grid-3">
-        <div class="card">Bei Regen siehst du abends kaum noch die Fahrbahnmarkierung, der Wischer schmiert nur noch. Unklare Sicht bei Starkregen ist kein Komfortproblem, sondern ein echtes Sicherheitsrisiko, im schlimmsten Fall mit Unfallfolge.</div>
-        <div class="card">Im Winter kratzt du jeden Morgen mühsam Eis von der Frontscheibe, bevor du überhaupt losfahren kannst.</div>
-        <div class="card">Insekten und Straßendreck kleben fest und lassen sich nur mit Kraftaufwand wieder entfernen.</div>
-        <div class="card">Sprühversiegelungen aus dem Baumarkt halten ein paar Wochen, dann ist der Effekt wieder weg.</div>
-        <div class="card">Gegenlicht bei Nachtfahrten blendet stärker, weil Mikrokratzer und Ablagerungen das Licht streuen.</div>
-        <div class="card">Du weißt, dass professionelle Versiegelung etwas bringt, aber bisher hat sich der Termin nie ergeben.</div>
+        <div class="card">Die Frontscheibe ist eine der am stärksten beanspruchten Flächen am Fahrzeug. Insekten, Bremsstaub, Vogelkot und Baumharz setzen sich fest und führen bei Regen zu gefährlichen Schlieren und eingeschränkter Sicht.</div>
+        <div class="card">Unbehandelte Scheiben vereisen bei Frost schneller und stärker. Die raue Glasoberfläche bietet Eiskristallen mehr Angriffsfläche – das kostet jeden Morgen wertvolle Zeit.</div>
+        <div class="card">Wischergummis hinterlassen auf unversiegelten Scheiben Streifen und Schmierfilme. Das liegt an mikroskopisch kleinen Unebenheiten auf der Glasoberfläche, die sich mit der Zeit ablagern.</div>
+        <div class="card">Bei Gegenverkehr und tiefstehender Sonne streuen Ablagerungen und Mikrokratzer das Licht. Das Ergebnis ist starke Blendung – ein häufig unterschätztes Sicherheitsrisiko.</div>
+        <div class="card">Sprühversiegelungen aus dem Baumarkt dringen nicht tief genug ins Glas ein. Die Schutzwirkung lässt nach wenigen Wochen nach, weil keine chemische Verbindung mit der Glasoberfläche entsteht.</div>
+        <div class="card" style="border-left: 4px solid var(--cyan);">Um Unfällen durch eingeschränkte Sicht vorzubeugen, empfiehlt sich eine professionelle Scheibenreinigung und -versiegelung mindestens einmal im Jahr. Die Politur entfernt alle eingebrannten Verunreinigungen, die Versiegelung versiegelt das Glas anschließend auf molekularer Ebene. Das Ergebnis: eine extrem glatte Oberfläche, an der Schmutz deutlich weniger haftet – und Wasser bei Regen sauber abperlt statt zu schmieren.</div>
       </div>
     </div>
   </section>
@@ -390,12 +407,12 @@
   <!-- BENEFITS -->
   <section>
     <div class="section-inner">
-      <div class="section-eyebrow" style="color: var(--cyan-dark);">Nach der Behandlung</div>
+      <div style="font-family:'DM Sans',sans-serif; font-size:12px; letter-spacing:4px; color:#009AA8; text-transform:uppercase; font-weight:500; margin-bottom:14px; text-align:center;">Nach der Behandlung</div>
       <h2 class="section-title">Das verändert sich für dich</h2>
       <div class="grid-3">
         <div class="card card-bg benefit-card">
           <h3>Klare Sicht bei Regen</h3>
-          <p>Wasser perlt sofort ab, der Scheibenwischer muss kaum noch ran. Gerade bei Nachtfahrten im Regen ein spürbarer Unterschied.</p>
+          <p>Ab ca. 70 km/h perlt Wasser durch den Fahrtwind selbstständig ab. Ab 100 km/h auf der Autobahn wird der Scheibenwischer nahezu überflüssig – gerade bei Nachtfahrten und Autobahnfahrten im Regen zeigt die Versiegelung ihre volle Performance.</p>
         </div>
         <div class="card card-bg benefit-card alt">
           <h3>Weniger Eiskratzen im Winter</h3>
@@ -411,11 +428,11 @@
         </div>
         <div class="card card-bg benefit-card">
           <h3>Bessere Sicht bei Gegenlicht</h3>
-          <p>Weniger Lichtbrechung und Schlieren auf der Scheibe, besonders relevant bei tiefstehender Sonne oder Gegenverkehr nachts.</p>
+          <p>Weniger Lichtbrechung und Schlieren auf der Scheibe – besonders relevant bei tiefstehender Sonne oder Gegenverkehr nachts.</p>
         </div>
         <div class="card card-bg benefit-card alt">
           <h3>Mehr Sicherheit bei Starkregen</h3>
-          <p>Kristallklare Sicht statt verschwommener Scheibe, genau dann wenn es im Straßenverkehr am meisten zählt.</p>
+          <p>Kristallklare Sicht statt verschwommener Scheibe – genau dann, wenn es im Straßenverkehr am meisten zählt.</p>
         </div>
       </div>
     </div>
@@ -424,7 +441,7 @@
   <!-- PROCESS -->
   <section class="section-bg">
     <div class="section-inner">
-      <div class="section-eyebrow">So läuft dein Termin ab</div>
+      <div style="font-family:'DM Sans',sans-serif; font-size:12px; letter-spacing:4px; color:var(--muted); text-transform:uppercase; font-weight:500; margin-bottom:14px; text-align:center;">So läuft der Termin ab</div>
       <h2 class="section-title">Drei Schritte zu klarer Sicht</h2>
       <div class="grid-3">
         <div class="card process-card">
@@ -449,16 +466,16 @@
   <!-- SERVICE AREA -->
   <section class="area-section">
     <h2>Scheibenversiegelung in Pforzheim und Umgebung</h2>
-    <p>Unser Standort ist Pforzheim, von hier aus sind wir schnell erreichbar: nur etwa 20 Minuten von Stuttgart und rund 30 Minuten von Karlsruhe entfernt. Egal ob du in Pforzheim selbst, im Enzkreis, in Stuttgart oder in Karlsruhe wohnst, du bringst dein Auto einfach zu uns vor Ort. So bekommst du professionelle GYEON Scheibenversiegelung in unserer Werkstatt in Pforzheim, ganz ohne langen Anfahrtsweg für dich.</p>
+    <p>Standort Pforzheim – nur etwa 20 Minuten von Stuttgart und rund 30 Minuten von Karlsruhe entfernt. Ob aus Pforzheim selbst, dem Enzkreis, Stuttgart oder Karlsruhe – das Fahrzeug wird einfach bei uns in der Werkstatt abgegeben. Professionelle GYEON Scheibenversiegelung in Pforzheim, ganz ohne langen Anfahrtsweg.</p>
   </section>
 
   <!-- PRICING -->
   <section id="pricing">
-    <div class="section-eyebrow">Festpreis</div>
+              <div style="font-family:'DM Sans',sans-serif; font-size:12px; letter-spacing:4px; color:var(--muted); text-transform:uppercase; font-weight:500; margin-bottom:14px; text-align:center;">Festpreis</div>
     <h2 class="section-title">Ein Preis, keine Überraschungen</h2>
     <div class="pricing-card">
       <div class="price-amount">150€</div>
-      <div class="price-label">Festpreis pro Frontscheibe</div>
+      <div class="price-label">Festpreis · 150€ pro Frontscheibe</div>
       <ul class="price-features">
         <li>Tiefenreinigung &amp; Politur inklusive</li>
         <li>Original GYEON Versiegelungsprodukte</li>
@@ -474,7 +491,7 @@
         <!-- meetergo widget end -->
       </div>
       <div class="price-note">Zahlung vor Ort bequem per Karte (SumUp) oder bar möglich.</div>
-      <div class="price-note">Wir melden uns innerhalb von 24 Stunden zur Terminbestätigung.</div>
+      <div class="price-note">Wir melden uns innerhalb von 24 Stunden per WhatsApp zur Terminbestätigung.</div>
     </div>
   </section>
 
@@ -497,7 +514,7 @@
           <span>Wie lange dauert der Termin?</span>
           <span class="faq-icon">+</span>
         </button>
-        <div class="faq-answer">Der gesamte Vorgang inklusive Reinigung, Politur, Auftragung und Aushärtung dauert etwa 45 bis 60 Minuten, abhängig vom Zustand der Scheibe.</div>
+        <div class="faq-answer">Der gesamte Vorgang inklusive Reinigung, Politur, Auftragung und Aushärtung dauert etwa 45 bis 60 Minuten.</div>
       </div>
 
       <div class="faq-item">
@@ -513,7 +530,7 @@
           <span>Muss ich danach etwas beachten?</span>
           <span class="faq-icon">+</span>
         </button>
-        <div class="faq-answer">In den ersten 24 Stunden sollte die Scheibe nicht gewaschen werden, damit die Versiegelung vollständig aushärten kann. Danach gilt: Waschanlagen sollten möglichst vermieden werden, da Bürsten und aggressive Reiniger die Standzeit und das Abperlverhalten der Versiegelung reduzieren. Für die Reinigung empfehlen wir eine schonende Handwäsche.</div>
+        <div class="faq-answer">In den ersten 24 Stunden sollte die Scheibe nicht gewaschen werden, damit die Versiegelung vollständig aushärten kann. Danach gilt: Waschanlagen sollten möglichst vermieden werden, da Bürsten und aggressive Reiniger die Standzeit und das Abperlverhalten der Versiegelung reduzieren. Für die Reinigung empfehlen wir den Glasreiniger von GYEON in Kombination mit dem Insektenentferner von GYEON sowie zwei bis drei hochwertige Glastücher – erhältlich bei uns vor Ort oder in unserem Online-Shop.</div>
       </div>
 
       <div class="faq-item">
